@@ -1,0 +1,67 @@
+{
+  "total_iterations": 20,
+  "levels": {
+    "L1": {
+      "best_fitness": 1.5,
+      "persistent_bonus": 0.5,
+      "perfect_scores": 191,
+      "num_meta_prompts": 6,
+      "best_meta_prompt_rules": [
+        "Write clean, readable code",
+        "Follow Python best practices",
+        "Test with provided examples"
+      ]
+    },
+    "L2": {
+      "best_fitness": 1.7,
+      "persistent_bonus": 0.5,
+      "perfect_scores": 204,
+      "num_meta_prompts": 8,
+      "best_meta_prompt_rules": [
+        "Write clean, readable code",
+        "Follow Python best practices",
+        "Test with provided examples"
+      ]
+    },
+    "L3": {
+      "best_fitness": 2.0,
+      "persistent_bonus": 0.5,
+      "perfect_scores": 47,
+      "num_meta_prompts": 9,
+      "best_meta_prompt_rules": [
+        "Write clean, readable code",
+        "Follow Python best practices",
+        "Test with provided examples",
+        "Always include docstrings"
+      ]
+    },
+    "L4": {
+      "best_fitness": 2.3,
+      "persistent_bonus": 0.5,
+      "perfect_scores": 95,
+      "num_meta_prompts": 6,
+      "best_meta_prompt_rules": [
+        "Write clean, readable code",
+        "Follow Python best practices",
+        "Test with provided examples",
+        "Add inline comments for complex logic",
+        "Comprehensive error handling improves quality",
+        "Optimal algorithm selection is critical"
+      ]
+    },
+    "L5": {
+      "best_fitness": 2.48,
+      "persistent_bonus": 0.5,
+      "perfect_scores": 113,
+      "num_meta_prompts": 7,
+      "best_meta_prompt_rules": [
+        "Write clean, readable code",
+        "Follow Python best practices",
+        "Test with provided examples",
+        "Handle edge cases explicitly",
+        "Comprehensive error handling improves quality",
+        "Optimal algorithm selection is critical"
+      ]
+    }
+  }
+}
